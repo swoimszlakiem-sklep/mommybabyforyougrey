@@ -1,0 +1,1052 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "theme": {
+      "name": "jewelrym5",
+      "title": "JewelryM5",
+      "styling": {
+        "primaryColor": "#111213",
+        "secondaryColor": "#3843c7",
+        "successColor": "#b18161",
+        "infoColor": "#52586a;",
+        "warningColor": "#909190",
+        "dangerColor": "#9D9690",
+        "mainFont": "Libre Caslon Display",
+        "display1Font": "Libre Caslon Display",
+        "display1Size": 5.375,
+        "display2Font": "Josefin Sans",
+        "display2Size": 3.5625,
+        "display5Font": "Josefin Sans",
+        "display5Size": 1.5,
+        "display7Font": "Josefin Sans",
+        "display7Size": 1.1875,
+        "display4Font": "DM Sans",
+        "display4Size": 1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "titlePreset": "Watch Boutique",
+      "nameSelectPreset": "watch-boutique",
+      "presetSourceTheme": "jewelrym5",
+      "additionalSetColors": [
+        "#fafafa"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "mommybabyszarosc",
+    "versionFirst": "5.7.12",
+    "siteFonts": [
+      {
+        "css": "'Libre Caslon Display', serif",
+        "name": "Libre Caslon Display",
+        "url": "https://fonts.googleapis.com/css?family=Libre+Caslon+Display:400"
+      },
+      {
+        "css": "'DM Sans', sans-serif",
+        "name": "DM Sans",
+        "url": "https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Josefin Sans', sans-serif",
+        "name": "Josefin Sans",
+        "url": "https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,400,500,600,700,100i,200i,300i,400i,500i,600i,700i"
+      }
+    ],
+    "imageResize": true,
+    "uniqCompNum": 5,
+    "versionPublish": "5.7.12",
+    "screenshot": "screenshot.png",
+    "mcSmartCart": {
+      "currency": "USD"
+    },
+    "usedWebp": true,
+    "cssOptimize": true,
+    "lazyLoad": true,
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#ffffff",
+      "colorButton": "#111213",
+      "rejectColor": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacityOverlay": "1",
+      "text": "Używamy plików cookie, aby zapewnić najlepszą jakość usług zgodnie z postanowieniami <a href='https://swoimszlakiem-sklep.pl/help-center?docType=privacyandpolicy'>Polityki prywatności i cookies</a>.",
+      "textButton": "Akceptuj",
+      "rejectText": "REJECT"
+    },
+    "favicon": false,
+    "mbrsiteDomain": "lgw0xjkuke",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "W celu kontynuowania potwierdź nasz <a href='https://swoimszlakiem-sklep.pl/help-center?docType=regulation'>Regulamin sklepu</a> i <a href='https://swoimszlakiem-sklep.pl/help-center?docType=privacyandpolicy'>Politykę prywatności</a>."
+    },
+    "pwa-switcher": false,
+    "publishChangesOnly": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Mommy Baby - PLECAK 3W1 DO WÓZKA | Idealny do codziennych spacerów z twoją pociechą SPRAWDŹ TERAZ ***SZAROŚĆ ORIGAMI***",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".item-wrapper": {
+              "position": "relative"
+            },
+            ".features-image": {
+              "padding-top": "40px"
+            },
+            ".features-image:first-child": {
+              "padding-top": "0px"
+            },
+            ".features-image:nth-child(2)": {
+              "padding-top": "0px"
+            },
+            ".features-image:nth-child(3)": {
+              "padding-top": "0px"
+            },
+            "@media (min-width: 575px) and (max-width: 990px)": {
+              ".features-image": {
+                "padding-top": "40px"
+              },
+              ".features-image:first-child": {
+                "padding-top": "0px"
+              },
+              ".features-image:nth-child(2)": {
+                "padding-top": "0px"
+              },
+              ".features-image:nth-child(3)": {
+                "padding-top": "40px"
+              }
+            },
+            "@media (max-width: 574px)": {
+              ".features-image": {
+                "padding-top": "40px"
+              },
+              ".features-image:first-child": {
+                "padding-top": "0px"
+              },
+              ".features-image:nth-child(2)": {
+                "padding-top": "40px"
+              },
+              ".features-image:nth-child(3)": {
+                "padding-top": "40px"
+              }
+            },
+            ".name": {
+              "color": "#111213",
+              "margin-bottom": "24px",
+              "text-transform": "uppercase"
+            },
+            ".price": {
+              "color": "#52586a",
+              "margin-top": "10px",
+              "font-size": "28px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#111213",
+              "text-align": "center",
+              "margin-bottom": "60px"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#111213",
+              "padding-bottom": "20px",
+              "margin": "auto",
+              "text-transform": "uppercase"
+            },
+            ".inner": {
+              "width": "100%",
+              "height": "100%",
+              "object-fit": "cover",
+              "transition": "0.3s"
+            },
+            ".item:hover": {
+              ".inner": {
+                "transform": "scale(1.1, 1.1)"
+              }
+            },
+            ".mbr-iconfont::before": {
+              "font-size": "14px"
+            },
+            ".text": {
+              "margin-top": "27px",
+              "padding-left": "50px",
+              "position": "relative"
+            },
+            ".name:before": {
+              "position": "absolute",
+              "left": "0",
+              "top": "10px",
+              "width": "35px",
+              "height": "2px",
+              "content": "\"\"",
+              "display": "block",
+              "background-color": "#000000"
+            },
+            ".name:after": {
+              "content": "'•'",
+              "font-family": "fontello",
+              "display": "inline-block",
+              "vertical-align": "baseline",
+              "font-size": "inherit",
+              "font-weight": "400",
+              "font-style": "normal",
+              "margin": "0 0.75em",
+              "color": "#909190"
+            },
+            ".name, .name2": {
+              "width": "auto",
+              "display": "inline"
+            },
+            ".name > a:hover": {
+              "color": "@secondaryColor !important"
+            },
+            ".name2 > a:hover": {
+              "color": "@secondaryColor !important"
+            },
+            "a": {
+              "font-weight": "400 !important"
+            }
+          },
+          "_name": "features3",
+          "_sourceTheme": "jewelrym5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features3\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1358.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#111213\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"title-block col-12\">\n                <h3 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\"><b>PlecaK Do wózka 3 w 1</b></h3>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Mommy Baby</b></h3>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-12 col-sm-6 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/zdj1-726x726.png\" alt=\"FRONT BACKPACK\" class=\"inner\" data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                    </div>\n                </div>\n                <div class=\"text\">\n                    <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".name\">PLECAK DLA RODZICA<a href=\"index.html\" class=\"text-black\">&nbsp;#1</a></p>\n                    <p class=\"name2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".name2\"></p>\n                    <p mbr-if=\"showCardTitle\" class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\">Plecak, który uporządkuje Twoje życie i ułatwi codzienne wyprawy z dzieckiem !<br></p>\n                </div>\n            </div>\n            <div class=\"col-12 col-sm-6 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/zdj2-726x726.jpg\" alt=\"LEFT SIDE\" class=\"inner\" data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                    </div>\n                </div>\n                <div class=\"text\">\n                    <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".name\">TORBA DO WÓZKA<a href=\"index.html\" class=\"text-black\">&nbsp;#2</a></p>\n                    <p class=\"name2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".name2\"></p>\n                    <p mbr-if=\"showCardTitle\" class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\">Szybki dostęp do chusteczek z bocznej kieszeni - na każdą ewentualność.<br></p>\n                </div>\n            </div>\n            <div class=\"col-12 col-sm-6 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/zdj3-726x726.jpg\" alt=\"OUTSIDE\" class=\"inner\" data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                    </div>\n                </div>\n                <div class=\"text\">\n                    <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".name\">STYLOWY ORGANIZER<a href=\"index.html\" class=\"text-black\">&nbsp;#3</a></p>\n                    <p class=\"name2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".name2\"></p>\n                    <p mbr-if=\"showCardTitle\" class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\">Wygodne paski bez uczucia&nbsp;dyskomfortu z solidnym zapięciem regulowanym.<b>&nbsp;</b></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sPvsGlBFbk",
+          "_anchor": "features3-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "margin-bottom": "16px",
+              "color": "#b18161",
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "30px",
+              "line-height": "0.8"
+            },
+            ".mbr-text": {
+              "color": "#52586a",
+              "margin-bottom": "40px"
+            },
+            ".desc": {
+              "color": "#111213"
+            },
+            ".desc1": {
+              "padding": "0px 10px",
+              "background": "@cardBg",
+              "display": "inline",
+              "width": "auto",
+              "color": "#ffffff"
+            },
+            ".card": {
+              "width": "100%",
+              "border-radius": "0",
+              "display": "inline-block",
+              "margin-bottom": "30px"
+            },
+            ".name": {
+              "margin-bottom": "20px"
+            },
+            ".price": {
+              "width": "auto",
+              "display": "inline"
+            },
+            ".price-line": {
+              "display": "block",
+              "margin-bottom": "27px"
+            },
+            ".plus1": {
+              "display": "inline",
+              "width": "auto",
+              "color": "#111213"
+            },
+            ".desc2": {
+              "display": "inline",
+              "width": "auto",
+              "color": "#909190"
+            },
+            ".new-price": {
+              "width": "auto",
+              "display": "inline"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "34px"
+            },
+            ".price-line1": {
+              "margin-bottom": "10px",
+              "color": "#111213"
+            },
+            ".price-line1:last-child": {
+              "margin-bottom": "0px"
+            },
+            ".btn": {
+              "margin-top": "0",
+              "margin-bottom": "10px"
+            },
+            ".plus": {
+              "color": "#52586a"
+            },
+            ".desc, .plus": {
+              "display": "inline-block",
+              "width": "auto"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#52586a"
+            },
+            ".right": {
+              "padding-left": "10px"
+            },
+            "@media (max-width: 768px)": {
+              ".right": {
+                "padding-left": "0",
+                "padding-top": "30px"
+              }
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            }
+          },
+          "_name": "pricing1",
+          "_sourceTheme": "jewelrym5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"pricing1\" group=\"Pricing\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Tag\" name=\"showTag\" checked>\n        <input type=\"color\" title=\"BG\" name=\"cardBg\" value=\"#8c8c50\" condition=\"showTag\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Price\" name=\"showPrice\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\" checked>\n        <input type=\"checkbox\" title=\"Category 1\" name=\"showCategory1\" checked>\n        <input type=\"checkbox\" title=\"Category 2\" name=\"showCategory2\" checked>\n        <input type=\"checkbox\" title=\"Category 3\" name=\"showCategory3\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@THEME_PATH@/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-6\">\n                <img src=\"@PROJECT_PATH@/assets/images/zdj4-1121x1121.jpg\" class=\"top\" alt=\"GIRL WITH BACKPACK\">\n            </div>\n            <div class=\"col-12 col-md-6\">\n                <div class=\"right\">\n                    <div class=\"card\" mbr-if=\"showTag\">\n                        <p class=\"desc1 bord mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".desc1\">Wyprzedaż - 9%</p>\n                    </div>\n                    <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".name, .card, .price-line\">Praktyczny plecak<br></p>\n\n                    <div class=\"price-line\" mbr-if=\"showPrice\">\n                        <p class=\"desc2 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".desc2\"><s>80,55zł</s></p>\n                        <p class=\"plus1 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plus1\">\n                            <b>&nbsp;</b>73,90zł</p>\n                    </div>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn, .price-line1\">Mommy baby to niezwykle praktyczna torba, organizer i plecak w jednym. Zaprojektowana z myślą o codziennych spacerach, podróżach i aktywnym trybie życia rodziców z dziećmi, nasz produkt oferuje maksymalną funkcjonalność i wygodę.<br><br>Trzy kieszenie termiczne kieszeń na telefon, kieszenie na butelki i słoiczki oraz kieszeń na chusteczki jednorazowe - wszystko to sprawia, że nasz plecak jest niezastąpiony w codziennych wyprawach z maluchem.</p>\n                    <div class=\"mbr-section-btn\" mbr-if=\"showButton\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-danger\" href=\"https://swoimszlakiem-sklep.pl/product/80281289-magiczny-plecak-mommy-baby\" data-app-placeholder=\"Type Text\">Oferta</a></div>\n                    <div class=\"price-line1\" mbr-if=\"showCategory1\">\n                        <p class=\"desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".desc\"><b>Kategoria:</b></p>\n                        <p class=\"plus mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plus\">Plecaki</p>\n                    </div>\n                    <div class=\"price-line1\" mbr-if=\"showCategory2\">\n                        <p class=\"desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".desc\"><b>\n                                Tagi:</b>&nbsp;</p>\n                        <p class=\"plus mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plus\">#WielofunkcyjnyPlecak #OrganizerDlaMamy</p>\n                    </div>\n                    <div class=\"price-line1\" mbr-if=\"showCategory3\">\n                        <p class=\"desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".desc\"><b>EAN:</b></p>\n                        <p class=\"plus mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".plus\">5903678548070&nbsp;<br></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sPvsI7Cb0V",
+          "_anchor": "pricing1-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".item-wrapper": {
+              "position": "relative"
+            },
+            ".features-image": {
+              "padding-top": "70px"
+            },
+            ".features-image:first-child": {
+              "padding-top": "0px"
+            },
+            ".name": {
+              "color": "#111213",
+              "margin-bottom": "24px",
+              "text-transform": "uppercase"
+            },
+            ".price": {
+              "color": "#111213",
+              "margin-top": "10px",
+              "font-size": "35px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#111213",
+              "text-align": "center",
+              "margin-bottom": "33px"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#b18161",
+              "padding-bottom": "20px",
+              "margin": "auto",
+              "text-transform": "uppercase"
+            },
+            ".inner": {
+              "width": "100%",
+              "height": "100%",
+              "object-fit": "cover",
+              "transition": "0.3s"
+            },
+            ".item:hover": {
+              ".inner": {
+                "transform": "scale(1.1, 1.1)"
+              }
+            },
+            ".mbr-iconfont::before": {
+              "font-size": "14px"
+            },
+            ".text": {
+              "margin-top": "27px",
+              "padding-left": "50px",
+              "position": "relative"
+            },
+            ".name:before": {
+              "position": "absolute",
+              "left": "0",
+              "top": "10px",
+              "width": "35px",
+              "height": "2px",
+              "content": "\"\"",
+              "display": "block",
+              "background-color": "#000000"
+            },
+            ".name:after": {
+              "content": "'•'",
+              "font-family": "fontello",
+              "display": "inline-block",
+              "vertical-align": "baseline",
+              "font-size": "inherit",
+              "font-weight": "400",
+              "font-style": "normal",
+              "margin": "0 0.75em",
+              "color": "#909190"
+            },
+            ".name, .name2": {
+              "width": "auto",
+              "display": "inline"
+            },
+            ".name > a:hover": {
+              "color": "@secondaryColor !important"
+            },
+            ".name2 > a:hover": {
+              "color": "@secondaryColor !important"
+            },
+            "a": {
+              "font-weight": "400 !important"
+            },
+            ".spacer": {
+              "height": "20px",
+              "width": "1px",
+              "background-color": "#52586a",
+              "margin": "auto",
+              "margin-bottom": "95px"
+            },
+            "@media (max-width: 576px)": {
+              ".b": {
+                "margin-top": "30px"
+              },
+              ".features-image": {
+                "padding-top": "30px"
+              }
+            },
+            "@media (max-width: 745px)": {
+              ".b": {
+                "margin-top": "70px"
+              },
+              ".spacer": {
+                "margin-bottom": "60px"
+              }
+            }
+          },
+          "_name": "features2",
+          "_sourceTheme": "jewelrym5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features2\" group=\"Features\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showHeader\" checked>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-if=\"showHeader\">\n            <div class=\"title-block col-12\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\">#KOLEKCJADLA<br>MAMY</h3>\n                <div class=\"spacer\"></div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-12 col-sm-6\">\n                <div class=\"item features-image\">\n                    <div class=\"item-wrapper\">\n                        <div class=\"item-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/zdjecie%20plecakow%202-1121x1121.jpg\" alt=\"MULTI OFFER\" class=\"inner\">\n                        </div>\n                    </div>\n                    <div class=\"text\">\n                        <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".name\">PLECAK</p>\n                        <p class=\"name2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".name2\"><a href=\"index.html\" class=\"text-warning\">#LivingTravelingShere #PlecakDlaMamy</a></p>\n                        <p mbr-if=\"showText\" class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\"><br>Wszystkie nasze plecaki są takie lekkie i poręczne dzięki czemu można je łatwo zabrać ze sobą w każdą podróż !<br></p>\n                    </div>\n                </div>\n                \n            </div>\n            <div class=\"col-12 col-sm-6 b\">\n                <div class=\"item features-image\">\n                    <div class=\"item-wrapper\">\n                        <div class=\"item-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/zdjecie%20plecakow-1121x747.jpg\" alt=\"EVERYTHING BACPACKS\" class=\"inner\">\n                        </div>\n                    </div>\n                    <div class=\"text\">\n                        <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".name\">PLECAK</p>\n                        <p class=\"name2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".name2\">#Organizer3w1 #RodzicielskiePodróże</p>\n                        <p mbr-if=\"showText\" class=\"price mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price\"><br>Dołącz do naszej rodziny mommy baby i ciesz się&nbsp; maksymalnym komfortem !<br></p>\n                    </div>\n                </div>\n                \n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u3lPdgpUAO",
+          "_anchor": "features2-0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-link.active:focus": {
+              "outline": "none"
+            },
+            ".nav-tabs": {
+              "flex-wrap": "wrap",
+              "border-bottom": "none",
+              "margin-bottom": "60px"
+            },
+            ".nav-item": {
+              "@media (max-width: 767px)": {
+                "width": "100%",
+                "margin": "0"
+              }
+            },
+            ".nav-tabs .nav-link": {
+              "transition": "all .5s",
+              "border": "none",
+              "border-bottom": "3px solid transparent",
+              "border-radius": "0 !important"
+            },
+            ".nav-tabs .nav-item": {
+              "margin-right": "0",
+              "width": "290px",
+              "padding": "0 6px"
+            },
+            ".nav-link, .nav-link.active": {
+              "padding": "1rem 0",
+              "background-color": "transparent"
+            },
+            ".nav-tabs .nav-link.active": {
+              "color": "#040E17",
+              "border-bottom": "none",
+              "transition": "all .3s ease !important",
+              "padding": "21px",
+              "background-color": "transparent",
+              "border-top": "2px solid #040e17",
+              "width": "100%",
+              "margin": "auto",
+              "text-align": "center"
+            },
+            "H4": {
+              "text-align": "center"
+            },
+            "H3": {
+              "text-align": "center"
+            },
+            ".nav-tabs .nav-link:not(.active)": {
+              "transition": "all .3s ease !important",
+              "padding": "21px",
+              "border": "none",
+              "font-weight": "500",
+              "background-color": "#f2f5fb",
+              "color": "#040E17",
+              "border-top": "2px solid transparent",
+              "width": "100%",
+              "margin": "auto",
+              "text-align": "center"
+            },
+            ".nav-tabs .nav-link:not(.active):hover": {
+              "background-color": "transparent",
+              "border-top": "2px solid #040e17"
+            },
+            ".card-heading": {
+              "margin-bottom": "25px",
+              "text-align": "left",
+              "color": "#111213"
+            },
+            "P": {
+              "color": "#52586a"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "30px"
+            }
+          },
+          "_name": "list1",
+          "_sourceTheme": "jewelrym5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"tabs list1\" group=\"List\" plugins=\"mbr-tabs\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"6\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <header>Tabs</header>\n        <select title=\"Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@THEME_PATH@/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle || showSubtitle\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    <b>Tabs</b></h3>\n            </div>\n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <ul class=\"nav nav-tabs\" role=\"tablist\">\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item first mbr-fonts-style\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#list1-3_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\"><strong>Opis</strong></a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#list1-3_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\"><strong>Zastosowanie (8)</strong></a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>Development</strong>\n                        </a>\n                    </li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab4\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>Phases</strong>\n                        </a>\n                    </li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab5\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <b>Design</b>\n                        </a>\n                    </li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab6\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <b>Architecture</b>\n                        </a>\n                    </li>\n                </ul>\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\"><br>Witaj w świecie mommy baby - miejsca, gdzie funkcjonalność spotyka się z elegancją, a wygoda staje się synonimem stylu. Pragniemy zaprosić Cię do odkrycia naszego niezwykłego plecaka, który nie tylko ułatwi Twoje codzienne wyprawy z dzieckiem, ale także podkreśli Twój osobisty styl. Nasz plecak, będący jednocześnie torbą i organizerem, został stworzony z myślą o potrzebach nowoczesnych rodziców, którzy cenią sobie praktyczne rozwiązania, nie rezygnując przy tym z elegancji i wygody. Dzięki lekkiemu i poręcznemu designowi, można go łatwo zabrać ze sobą wszędzie, tam gdziekolwiek zechcesz się udać z dzieckiem.\n<br>\n<br>📏 Specyfikacja:<br>Wymiary: 40x25x16cm\n<br>Waga: 0,59 kg<br>\nPojemność: 20 litrów<br>Konstrukcja:&nbsp;&nbsp;Wielofunkcyjna konstrukcja przegród, schludne miejsce do przechowywania&nbsp; <br>z przodu do przechowywania butelek, wewnętrzny materiał izolacyjny.<br>Tkanina: Nylonowa, miękka i trwała, łatwa w pielęgnacji.<br>Zamki: Metalowe błyskawiczne, łatwe do otwierania i zamykania, trwałe.<br>Materiał: wodoodporna tkanina Oxford.<br>Kieszenie: na butelki oddzielone od głównej komory z odzieżą.<br>Bezpieczeństwo: odblaskowy kształt kocich uszek zapewni dodatkowe bezpieczeństwo w każdych warunkach.<br>Dodatkowa: Kieszeń z tyłu o dużej pojemności, która może pomieścić tablet o przekątnej 9,7 cala +<br>boczna kieszeń na serwetki.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n\n                                <h4 class=\"card-heading mbr-fonts-style mbr-section-title\" data-app-selector=\".card-heading\" data-app-placeholder=\"Type Text\" mbr-theme-style=\"display-5\"><b>FUNKCJONALNA TORBA ORGANIZER PLECAK DO WÓZKA DLA MAMY TATY&nbsp;</b></h4>\n                                <p class=\"mbr-text mbr-fonts-style p\" mbr-theme-style=\"display-4\" data-app-selector=\".p\"><b>Podróżowanie z dzieckiem:</b> Idealny towarzysz podczas podróży samochodem, pociągiem czy samolotem. Dzięki dużej pojemności i liczbowym przegródkom, możesz łatwo zorganizować wszystkie potrzebne rzeczy dla malucha podczas podróży.\n<br>\n<br><b>Spacer z wózkiem:</b> Plecak mommy baby łatwo można przypiąć do rączki wózka, zapewniając łatwy dostęp do niezbędnych akcesoriów podczas spaceru.\n<br>\n<br><b>Wycieczki na świeżym powietrzu:</b> Bez względu na to, czy idziesz na piknik, spacer do parku czy na wycieczkę w góry, plecak ten zapewni Ci wygodne przechowywanie wszystkich niezbędnych rzeczy dla Ciebie i Twojego dziecka.\n<br>\n<br><b>Zakupy:</b> Dzięki dużym rozmiarom i licznym kieszeniom, plecak mommy baby można użyć jako praktyczną torbę na zakupy, która pomoże Ci uniknąć konieczności noszenia dodatkowych toreb.\n<br>\n<br><b>Wizyty u lekarza:</b> Idealna do przechowywania potrzebnych akcesoriów medycznych dla dziecka, takich jak pieluszki, chusteczki, czy kremy.\n<br>\n<br><b>Codzienne wyjścia:</b> Niezależnie od tego, czy idziesz na spacer, z przyjaciółmi, czy na spotkanie do kawiarni, plecak mommy baby zapewni Ci wygodne przechowywanie wszystkich niezbędnych rzeczy, pozostając jednocześnie modnym dodatkiem do Twojego stroju.\n<br>\n<br><b>Praca zdalna:</b> Dzięki wygodnemu designowi i specjalnym kieszeniom na laptopa, plecak ten może również służyć jako praktyczna torba do pracy, umożliwiając Ci pracę zdalną z dowolnego miejsca.\n<br>\n<br><b>Wizyty u znajomych:</b> Niezależnie od tego, czy planujesz krótką wizytę u znajomych, czy dłuższy pobyt, plecak ten pomoże Ci zorganizować wszystkie potrzebne rzeczy dla Ciebie i Twojego dziecka, zapewniając komfort i wygodę podczas pobytu.\n<br>\n<br>\n<br>\n<br>\n<br>\n<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Mobirise is an easy and simple free website builder - just drop site elements to\n                                    your page, add content and style it to look the way you like.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Free Website Builder offers a huge collection of 2500+ website blocks, templates and\n                                    themes with thousands flexible options. Combine blocks from different themes to\n                                    create a unique mix.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Free Website Builder offers a huge collection of 2500+ website blocks, templates and\n                                    themes with thousands flexible options. Combine blocks from different themes to\n                                    create a unique mix.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Free Website Builder offers a huge collection of 2500+ website blocks, templates and\n                                    themes with thousands flexible options. Combine blocks from different themes to\n                                    create a unique mix.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sPvsJmo7HS",
+          "_anchor": "list1-3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverseContent)": {
+              ".row.align-items-center": {
+                "flex-direction": "row-reverse"
+              },
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".row.main": {
+              "align-items": "flex-end",
+              "justify-content": "space-between"
+            },
+            ".mbr-section-subtitle": {
+              "padding-bottom": "20px",
+              "text-transform": "uppercase",
+              "color": "#b18161"
+            },
+            ".mbr-section-title": {
+              "padding-bottom": "45px",
+              "color": "#111213"
+            },
+            ".text-block": {
+              "color": "#ffffff",
+              "margin-bottom": "45px"
+            },
+            ".row.justify-content-between": {
+              "margin-bottom": "3px",
+              "margin": "0",
+              "margin-top": "26px"
+            },
+            ".name": {
+              "color": "#ffffff"
+            },
+            ".name1": {
+              "margin-right": "(100% - (@progressFirst * 1%))",
+              "color": "@numberColor"
+            },
+            ".name2": {
+              "margin-right": "(100% - (@progressSecond * 1%))",
+              "color": "@numberColor"
+            },
+            ".name3": {
+              "margin-right": "(100% - (@progressThird * 1%))",
+              "color": "@numberColor"
+            },
+            ".name, .name1, .name2, .name3": {
+              "width": "auto",
+              "padding": "0"
+            },
+            ".progress": {
+              "position": "relative",
+              "width": "100%",
+              "height": "6px",
+              "background-color": "#F2F5FB",
+              "margin-top": "12px",
+              "border-radius": "0"
+            },
+            ".progress-bar": {
+              "position": "absolute",
+              "background-color": "@progressColor",
+              "height": "6px"
+            },
+            ".progress1": {
+              "width": "(@progressFirst * 1%)"
+            },
+            ".progress2": {
+              "width": "(@progressSecond * 1%)"
+            },
+            ".progress3": {
+              "width": "(@progressThird * 1%)"
+            },
+            ".progressbar-number1:before": {
+              "content": "'@{progressFirst}'"
+            },
+            ".progressbar-number2:before": {
+              "content": "'@{progressSecond}'"
+            },
+            ".progressbar-number3:before": {
+              "content": "'@{progressThird}'"
+            },
+            ".left": {
+              "max-width": "557px"
+            },
+            ".email span": {
+              "padding": "19px",
+              "border-radius": "50%",
+              "font-size": "18px",
+              "color": "#000000",
+              "background-color": "#f2f5fb",
+              "margin-right": "15px"
+            },
+            ".email > a": {
+              "font-weight": "600 !important"
+            },
+            "@media (max-width: 768px)": {
+              ".text-wrapper": {
+                "margin-top": "30px"
+              },
+              ".left": {
+                "max-width": "initial"
+              }
+            },
+            ".mbr-section-title, .email": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "numbers1",
+          "_sourceTheme": "jewelrym5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"numbers1\" group=\"Numbers\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Email\" name=\"showEmail\" checked>\n        <input type=\"color\" title=\"Progress Color\" name=\"progressColor\" value=\"#909190\" selected>\n        <input type=\"color\" title=\"Numbers Color\" name=\"numberColor\" value=\"#ffffff\" selected>\n        <input type=\"range\" name=\"progressFirst\" title=\"Progress 1\" min=\"0\" max=\"100\" step=\"5\" value=\"100\">\n        <input type=\"range\" inline name=\"progressSecond\" title=\"Progress 2\" min=\"0\" max=\"100\" step=\"5\" value=\"100\">\n        <input type=\"range\" name=\"progressThird\" title=\"Progress 3\" min=\"0\" max=\"100\" step=\"5\" value=\"100\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/vvb-2000x1333.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#111213\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row main\">\n            <div class=\"col-12 col-md-6 left\">\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-placeholder=\"Type Text\">about us</h3>\n                <p mbr-if=\"showSubtitle\" class=\"mbr-section-title mbr-text mbr-fonts-style\" data-app-selector=\".mbr-section-title, .email\" mbr-theme-style=\"display-2\" data-app-placeholder=\"Type Text\">Nasz plecak to świetna propozycja udanego prezentu dla mamy&nbsp;</p>\n                <p mbr-if=\"showText\" class=\"text-block mbr-text mbr-fonts-style\" data-app-selector=\".text-block\" mbr-theme-style=\"display-4\" data-app-placeholder=\"Type Text\">Wiemy, że czasem znalezienie idealnego prezentu może okazać się wyzwaniem. Jednak tym razem możesz mieć pewność, że nasz plecak z dodatkowym miejscem na pieluchy będzie doskonałym prezentem zarówno dla przyszłych mam, jak i dla tych kobiet, które cenią sobie dobrze zorganizowane życie.</p>\n                <p class=\"email mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".email\" mbr-if=\"showEmail\">\n                    <span class=\"mobi-mbri mobi-mbri-letter mbr-iconfont mbr-iconfont-btn\"></span><a href=\"mailto:kontakt@swoim-szlakiem.pl\" class=\"text-white\">napisz do nas</a></p>\n            </div>\n            <div class=\"col-12 col-md-6\">\n                <div class=\"text-wrapper\">\n                    <div class=\"row justify-content-between\">\n                        <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".name\">Wielofunkcyjność</p>\n                        <div class=\"name1 progressbar-number1\"><span>%</span></div>\n                    </div>\n                    <div class=\"progress\">\n                        <div class=\"progress-bar progress1\"></div>\n                    </div>\n                    <div class=\"row justify-content-between\">\n                        <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".name\">Wygoda</p>\n                        <div class=\"name2 progressbar-number2\"><span>%</span></div>\n                    </div>\n                    <div class=\"progress\">\n                        <div class=\"progress-bar progress2\"></div>\n                    </div>\n                    <div class=\"row justify-content-between\">\n                        <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".name\">Detale</p>\n                        <div class=\"name3 progressbar-number3\"><span>%</span></div>\n                    </div>\n                    <div class=\"progress\">\n                        <div class=\"progress-bar progress3\"></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sPvsLEQLCb",
+          "_anchor": "numbers1-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".container": {
+              "max-width": "1132px"
+            },
+            ".col-md-7": {
+              "margin": "auto !important"
+            },
+            "@media (max-width: 992px)": {
+              ".b": {
+                "margin-bottom": "20px"
+              }
+            }
+          },
+          "_name": "image4",
+          "_sourceTheme": "jewelrym5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image4\" group=\"Image & Video\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width\" name=\"contentWidth\" min=\"6\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"range\" inline title=\"Sizes\" name=\"proportions\" min=\"4\" max=\"8\" value=\"6\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@THEME_PATH@/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f2f5fb\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    \n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{contentWidth}}\">\n                <div class=\"row justify-content-center\">\n                    <div class=\"col-12 col-lg-{{proportions}}\">\n                        <div class=\"img-item b\">\n                            <img src=\"@PROJECT_PATH@/assets/images/%C5%9Brodektorby-photoroom-1068x712.jpg\" class=\"top\" alt=\"IN BACKPACK\">\n                            <p class=\"mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription\">Responsive</p>\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-lg\">\n                        <div class=\"img-item\">\n                            <img src=\"@PROJECT_PATH@/assets/images/odblask-1068x712.jpg\" class=\"top-2\" alt=\"BACKPACKS IN ROOM\">\n                            <p class=\"mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription\">Responsive</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sPvsNhpVZl",
+          "_anchor": "image4-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#b18161",
+              "padding-bottom": "13px",
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-title": {
+              "padding-bottom": "30px",
+              "color": "#111213"
+            },
+            ".role": {
+              "color": "#52586a"
+            },
+            ".name": {
+              "color": "#111213"
+            },
+            "a": {
+              "font-weight": "400 !important"
+            }
+          },
+          "_name": "article1",
+          "_sourceTheme": "jewelrym5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article1\" group=\"Article\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Role\" name=\"showRole\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f2f5fb\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\">Gwarantujemy</h3>\n        <h3 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><i><a href=\"index.html\" class=\"text-warning\">Bezpieczeństwo i dużą przestrzeń</a>&nbsp;w jednym plecaku ! Odblaskowe kocie uszka to świetna ochrona&nbsp;</i><i>w każdych warunkach, a duża pojemność torby pomieści wszystko, to </i><br><i>czego potrzebujesz.</i></h3>\n        <h3 mbr-if=\"showName\" class=\"name mbr-fonts-style\" data-app-selector=\".name\" mbr-theme-style=\"display-7\"><b>swoimszlakiem-sklep.pl</b></h3>\n        <h3 mbr-if=\"showRole\" class=\"role mbr-fonts-style\" data-app-selector=\".role\" mbr-theme-style=\"display-4\"></h3>\n    </div>\n</section>",
+          "_cid": "u3yhrwX9nA",
+          "_anchor": "article1-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".item-wrapper": {
+              "position": "relative"
+            },
+            ".features-image": {
+              "padding-top": "45px"
+            },
+            ".features-image:first-child": {
+              "padding-top": "0px"
+            },
+            ".features-image:nth-child(2)": {
+              "padding-top": "0px"
+            },
+            ".features-image:nth-child(3)": {
+              "padding-top": "0px"
+            },
+            "@media (max-width: 990px)": {
+              ".features-image:nth-child(3)": {
+                "padding-top": "45px"
+              }
+            },
+            "@media (max-width: 574px)": {
+              ".features-image:nth-child(2)": {
+                "padding-top": "45px"
+              }
+            },
+            ".card": {
+              "padding": "0px 10px",
+              "width": "auto",
+              "border-radius": "0"
+            },
+            ".card.align-center": {
+              "position": "absolute",
+              "left": "20px",
+              "top": "20px"
+            },
+            ".name": {
+              "margin-top": "27px",
+              "color": "#111213"
+            },
+            ".price": {
+              "margin-top": "1px",
+              "color": "#52586a",
+              "margin-bottom": "7px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#111213",
+              "text-align": "left",
+              "margin-bottom": "35px"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#b18161",
+              "padding-bottom": "20px",
+              "margin": "auto",
+              "text-transform": "uppercase"
+            },
+            ".inner": {
+              "width": "100%",
+              "height": "100%",
+              "object-fit": "cover",
+              "transition": "0.3s"
+            },
+            ".item-img:hover": {
+              ".inner": {
+                "transform": "scale(1.1, 1.1)"
+              }
+            },
+            ".mbr-iconfont::before": {
+              "font-size": "14px"
+            },
+            ".tag1": {
+              "background-color": "@cardBg1"
+            },
+            ".tag2": {
+              "background-color": "@cardBg2"
+            },
+            ".tag3": {
+              "background-color": "@cardBg3"
+            },
+            ".desc1, .iconfont-wrapper": {
+              "color": "#ffffff"
+            },
+            ".name, .iconfont-wrapper, .price": {
+              "color": "#52586a"
+            },
+            ".desc1": {
+              "color": "#fafafa"
+            }
+          },
+          "_name": "pricing3",
+          "_sourceTheme": "jewelrym5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"pricing3\" group=\"Pricing\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Icons 1\" name=\"showIcons1\" checked>\n        <input type=\"checkbox\" title=\"Icons 2\" name=\"showIcons2\">\n        <input type=\"checkbox\" title=\"Icons 3\" name=\"showIcons3\" checked>\n        <input type=\"checkbox\" title=\"Tag 1\" name=\"showTag1\">\n        <input type=\"checkbox\" title=\"Tag 2\" name=\"showTag2\" checked>\n        <input type=\"checkbox\" title=\"Tag 3\" name=\"showTag3\">\n        <input type=\"color\" title=\"Tag 1 BG\" name=\"cardBg1\" value=\"#3f37c9\" condition=\"showTag1 == true\">\n        <input type=\"color\" title=\"Tag 2 BG\" name=\"cardBg2\" value=\"#111213\" condition=\"showTag2 == true\">\n        <input type=\"color\" title=\"Tag 3 BG\" name=\"cardBg3\" value=\"#3f37c9\" condition=\"showTag3 == true\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-1170x780.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#111213\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Kolor: Szarość origami</h3>\n        <div class=\"row\">\n            <div class=\"col-12 col-sm-6 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/cc1-new_easy-resize.com-726x726.jpg\" alt=\"GALLERY 1\" class=\"inner\">\n                    </div>\n                    <div class=\"center\" mbr-if=\"showTag1\">\n                        <div class=\"card align-center tag1\">\n                            <p class=\"mbr-text desc1 bord mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".desc1\">\n                                SALE</p>\n                        </div>\n                    </div>\n                </div>\n                <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".name, .iconfont-wrapper, .price\">To moment na lepszą organizację z plecakiem mommy baby</p>\n                <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price\">Bądź gotowa nawet na najtrudniejsze wyzwania !</p>\n                <p class=\"iconfont-wrapper\" mbr-if=\"showIcons1\">\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                </p>\n            </div>\n            <div class=\"col-12 col-sm-6 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/fine%20workmanship%20quality%20assurance34-726x726.jpg\" alt=\"GALLERY 2\" class=\"inner\">\n                    </div>\n                    <div class=\"center\" mbr-if=\"showTag2\">\n                        <div class=\"card align-center tag2\">\n                            <p class=\"mbr-text desc1 bord mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".desc1\">DOSTĘPNY</p>\n                        </div>\n                    </div>\n                </div>\n                <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".name, .iconfont-wrapper, .price\">Otwórz plecak, rozpocznij podróż w wygodnym stylu</p>\n                <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price\"></p>\n                <p class=\"iconfont-wrapper\" mbr-if=\"showIcons2\">\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                </p>\n            </div>\n            <div class=\"col-12 col-sm-6 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/calosckomplet1-726x726.jpg\" alt=\"GALLERY 3\" class=\"inner\">\n                    </div>\n                    <div class=\"center\" mbr-if=\"showTag3\">\n                        <div class=\"card align-center tag3\">\n                            <p class=\"mbr-text desc1 bord mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".desc1\">\n                                SALE</p>\n                        </div>\n                    </div>\n                </div>\n                <p class=\"name mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".name, .iconfont-wrapper, .price\">Akcesoria dla twojego malucha mogą w końcu być na swoim miejscu !</p>\n                <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price\">Zobacz jakie to proste z plecakiem mommy baby !</p>\n                <p class=\"iconfont-wrapper\" mbr-if=\"showIcons3\">\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                    <span mbr-icon class=\"mbr-iconfont mbr-iconfont-1 mobi-mbri-star mobi-mbri\" style=\"color: rgb(255, 107, 0); fill: rgb(255, 107, 0);\"></span>\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sPvsS1wj5V",
+          "_anchor": "pricing3-7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".l": {
+              "display": "inline !important"
+            },
+            ".icon-transition span": {
+              "border": "1px solid #e5e6ef",
+              "align-items": "center",
+              "padding": "0.1rem 0.9rem",
+              "border-radius": "50%",
+              "display": "flex",
+              "justify-content": "center",
+              "line-height": "3em",
+              "width": "40px",
+              "height": "40px",
+              "background": "@circleColor none repeat scroll 0 0",
+              "-webkit-transition": "all 0.3s ease-out 0s",
+              "transition": "all 0.3s ease-out 0s",
+              "font-size": "14px"
+            },
+            ".mbr-iconfont": {
+              "color": "@iconsColor",
+              "align-items": "center",
+              "&:before": {
+                "font-size": "14px",
+                "display": "flex",
+                "justify-content": "center"
+              }
+            },
+            ".social-list": {
+              "width": "auto"
+            },
+            ".social-media": {
+              "text-align": "center",
+              "padding": "0",
+              "ul": {
+                "margin": "0",
+                "padding": "0",
+                "li": {
+                  "padding": "2px",
+                  "display": "inline-block"
+                }
+              },
+              "margin-bottom": "60px"
+            },
+            ".icon-transition:hover": {
+              ".mbr-iconfont": {
+                "color": "@iconHover"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".social-list": {
+                "text-align": "center !important"
+              }
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "30px"
+            },
+            "a.nav-link:after": {
+              "background-color": "@primaryColor",
+              "content": "\"\" !important",
+              "display": "block !important",
+              "position": "relative",
+              "z-index": "1",
+              "top": "auto",
+              "bottom": "-4px",
+              "left": "0",
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "transform": "none",
+              "width": "0",
+              "height": "2px",
+              "-webkit-transition": "all 0.3s ease",
+              "-ms-transition": "all 0.3s ease",
+              "transition": "all 0.3s ease",
+              "opacity": "0"
+            },
+            "a.nav-link:hover:after": {
+              "opacity": "1",
+              "width": "100%"
+            },
+            "a.nav-link:hover": {
+              "color": "@primaryColor !important"
+            },
+            ".navbar-nav": {
+              "display": "block",
+              "text-align": "center",
+              "margin-bottom": "26px"
+            },
+            ".nav-link": {
+              "font-weight": "600 !important"
+            },
+            ".inner1": {
+              "width": "auto"
+            },
+            ".mbr-text": {
+              "color": "#909190"
+            },
+            ".line": {
+              "height": "1px",
+              "width": "100%",
+              "background-color": "#e5e6ef",
+              "margin-bottom": "30px"
+            },
+            "a": {
+              "font-weight": "400 !important"
+            },
+            "@media (max-width: 540px)": {
+              ".navbar-nav": {
+                "display": "flex",
+                "flex-direction": "column"
+              },
+              ".l": {
+                "display": "inline !important",
+                "width": "auto",
+                "margin-top": "15px"
+              },
+              ".nav-link": {
+                "display": "inline",
+                "width": "auto"
+              }
+            },
+            ".inner": {
+              "position": "relative",
+              "display": "inline-block",
+              "padding": "0em 0.8em !important"
+            },
+            ".mbr-section-title, .social-media": {
+              "text-align": "center",
+              "color": "#111213"
+            },
+            ".mbr-section-title, .social-media, .navbar-nav": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "jewelrym5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2\" group=\"Footer\" global once=\"footers\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Links\" name=\"showLinks\" checked>\n        <input type=\"checkbox\" title=\"Socials\" name=\"showSocial\" checked>\n        <select title=\"Social Count\" name=\"iconsCount\" condition=\"showSocial\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"checkbox\" title=\"Line\" name=\"showLine\" condition=\"showSocial\" checked>\n        <input type=\"color\" title=\"Icons\" name=\"iconsColor\" value=\"#111213\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Icons Hover\" name=\"iconHover\" value=\"#909190\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background5-1170x780.jpg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#111213\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .social-media, .navbar-nav\"><b>Magic Boutique</b></h3>\n\n        <div class=\"navbar-nav\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\">\n            <div class=\"inner1\">\n            <h5 class=\"mbr-fonts-style l\">\n                <div class=\"inner\">\n                    <a class=\"nav-link link text-white\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><br></a></div>\n            </h5>\n            <h5 class=\"mbr-fonts-style l\">\n                <div class=\"inner\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"https://swoimszlakiem-sklep.pl/\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Strona główna</a></div>\n            </h5>\n            <h5 class=\"mbr-fonts-style l\">\n                <div class=\"inner\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"https://swoimszlakiem-sklep.pl/help-center\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Centrum pomocy</a></div>\n            </h5>\n            <h5 class=\"mbr-fonts-style l\">\n                <div class=\"inner\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"https://swoimszlakiem-sklep.pl/products?pageSize=12&sortType=Bestsellers\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Produkty</a></div>\n            </h5>\n            <h5 class=\"mbr-fonts-style l\">\n                <div class=\"inner\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"https://swoimszlakiem-sklep.pl/contact\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Kontakt</a></div>\n            </h5>\n            </div>\n        </div>\n        <div class=\"social-media\" mbr-if=\"showSocial\">\n            <ul class=\"social-list\">\n                <li mbr-if=\"iconsCount > 0\">\n                    <a class=\"icon-transition\" href=\"https://www.facebook.com/profile.php?id=61553119807206\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                </li>\n                <li mbr-if=\"iconsCount > 1\">\n                    <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\" style></span>\n                    </a>\n                </li>\n                <li mbr-if=\"iconsCount > 2\">\n                    <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </li>\n                <li mbr-if=\"iconsCount > 3\">\n                    <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                    </a>\n                </li>\n                <li mbr-if=\"iconsCount > 4\">\n                    <a class=\"icon-transition\" href=\"#\">\n                        <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\" style></span>\n                    </a>\n                </li>\n            </ul>\n        </div>\n        <div class=\"row align-center mbr-white\">\n            <div class=\"col-12\">\n                <div class=\"line\" mbr-if=\"showLine\"></div>\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">swoimszlakiem-sklep.pl&nbsp; © 2025.\n                    All Rights Reserved.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sPvsW2oUQd",
+          "_anchor": "footer1-a",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
